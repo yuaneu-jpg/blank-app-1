@@ -53,6 +53,10 @@ st.markdown(
     the likelihood of antibiotic resistance. This visualization explores the unique intersections of the 3 most
     popular broad-spec antibiotics and the most commonly met bacterial diseases.
 
+    It is imperative to note that MIC differs wildly across bacterial specis, and thus doctors should
+    treat patients on a case-by-case scenario, not by randomly throwing out an amount of broad-spec
+    antibiotics to prevent disasters like super bugs. 
+
     This interactive narrative begins with a broad summary: a bar chart with average MIC by antibiotic. Then it narrows into the full heatmap, 
     where each bacterial species can be compared across all three antibiotics. Click a bar or a heatmap cell 
     to highlight one antibiotic across the visualization. Hover over the heatmap to inspect individual MIC values.
