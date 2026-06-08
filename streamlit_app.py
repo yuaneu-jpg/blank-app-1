@@ -168,4 +168,4 @@ final_chart = alt.vconcat(
     color="independent"
 )
 
-st.altair_chart(final_chart, use_container_width=True)
+st.altair_chart(final_chart, use_container_width=False)
