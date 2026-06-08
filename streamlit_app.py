@@ -118,7 +118,7 @@ heatmap_base = alt.Chart(df_long).mark_rect(
     color=alt.Color(
         "MIC:Q",
         scale=alt.Scale(type="log", scheme="orangered"),
-        title="MIC Lower = More Effective"
+        title="MIC"
     ),
     opacity=alt.condition(
         antibiotic_click,
@@ -169,3 +169,4 @@ final_chart = alt.vconcat(
 )
 
 st.altair_chart(final_chart, use_container_width=False)
+st.caption("Darker hues indicate higher concentrations needed to prevent bacterial growth.")
